@@ -109,11 +109,11 @@ end
 
 game.Workspace.Zombies.ChildAdded:GetPlayers()) do
       CreateEsp(v)
-      v.CharacterAdded:Connect(CreateEsp(v))
+
 end
 
 game.Workspace.Zombies.ChildAdded:Connect(function(v)
       CreateEsp(v)
-      v.CharacterAdded:Connect(CreateEsp(v))
+      
 end)
 return Config
